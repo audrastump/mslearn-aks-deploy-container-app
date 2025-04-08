@@ -12,7 +12,7 @@ spec:
         app: contoso-website
     spec:
       containers:
-        - image: skadacrv3.azurecr.io/samples/contoso-website
+        - image: testdeploymentsacr.azurecr.io/testdeploymentsacr.azurecr.io/image-workflow-1744135103449:latest
           name: contoso-website
           resources:
             requests:
